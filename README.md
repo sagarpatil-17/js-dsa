@@ -7,7 +7,6 @@ A structured repository dedicated to mastering Data Structures, Algorithms, and 
 This repository is organized logically by topic and difficulty level:
 
 ```text
-.
 ├── Algorithms/         # Standard algorithmic paradigms (Sorting, Searching, DP, etc.)
 ├── Data-Structure/     # Custom implementations of core data structures from scratch
 └── Problem-Solving/    # Solutions from coding platforms (LeetCode, HackerRank, etc.)
