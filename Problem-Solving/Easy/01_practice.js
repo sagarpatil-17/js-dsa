@@ -1,11 +1,4 @@
 // problem 1
-// print 'hello world'
-
-// console.log('Hello World!');
-
-
-
-// problem 2
 // print sum two numbers
 
 function sum(num1, num2) {
@@ -16,7 +9,7 @@ function sum(num1, num2) {
 
 
 
-// problem 3
+// problem 2
 // calculate and print area of rectangle 
 
 function calculateRectangleArea(length, width) {
@@ -37,7 +30,7 @@ function calculateRectangleArea(length, width) {
 
 
 
-// problem 4
+// problem 3
 // write a function that tells you if a given number is even or odd
 
 function handleNumber(num) {
@@ -52,7 +45,7 @@ function handleNumber(num) {
 
 
 
-// problem 5
+// problem 4
 // write a function that finds and prints the smallest number among three given numbers
 // input: 3 numbers 
 // return smallest number 
@@ -96,7 +89,7 @@ function smallestNumber(a, b, c) {
 
 
 
-// problem 6
+// problem 5
 // write a function that returns the reverse of a string
 // input: a string 
 // output: reversed string 
@@ -122,7 +115,7 @@ function reverseString(string) {
 
 
 
-// problem 7
+// problem 6
 // write a function that calculate factorial of a given number
 // input: a number, positive integer ->0,1,4,7
 // output: factorial of number
@@ -145,7 +138,7 @@ function calculateFactorial(num) {
 
 
 
-// problem 8
+// problem 7
 // write a function that tells provided year is leap year or not
 // input: a number, positive integer -> 2000, 2001, 2004
 // output: true if leap year, else false
