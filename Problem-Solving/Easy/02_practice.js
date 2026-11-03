@@ -196,4 +196,44 @@ function findFactors(num) {
     console.log(factors);
 }
 
-findFactors(10)
+// findFactors(10)
+
+
+
+// problem 15
+// write a function that calculates and returns the average of a set of numbers
+// input: array of positive integer numbers
+// output: average of numbers
+// Average: calculated by dividing the total of the values by the number of values
+// example:
+// [2, 4, 8, 6] => 5 
+
+function calculateAverage(arr) {
+    // approach 1
+    // let total = arr[0];
+    // for (let i = 1; i < arr.length; i++) {
+    //     total = total + arr[i]
+    // }
+    // const average = total / arr.length;
+    // console.log(average);
+
+
+    // approach 2
+    // const average = arr.reduce((acc, curr) => {
+    //     return acc + curr
+    // }, 0) / arr.length
+
+    // console.log(average);
+
+
+    // approach 3
+    let total = 0;
+    arr.map((num) => {
+        return total = total + num
+    })
+    const average = total / arr.length
+    console.log(average)
+}
+
+calculateAverage([2, 4, 8, 6])
+calculateAverage([12, 43, 85, 63, 86, 11])
